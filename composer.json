@@ -1,0 +1,26 @@
+{
+    "name": "marartner/psalm-strict-equality",
+    "description": "Psalm plugin to enforce strict equality",
+    "type": "psalm-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcus Artner",
+            "email": "git@martner.at"
+        }
+    ],
+    "require": {
+        "vimeo/psalm": "^4.0",
+        "ext-simplexml": "*"
+    },
+    "extra": {
+        "psalm" : {
+            "pluginClass": "Marartner\\PsalmStrictEquality\\Plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Marartner\\PsalmStrictEquality\\": "src"
+        }
+    }
+}
