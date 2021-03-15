@@ -1,4 +1,6 @@
 # Enforce Strict Equality
+[![Latest Stable Version](https://poser.pugx.org/marartner/psalm-strict-equality/v)](//packagist.org/packages/marartner/psalm-strict-equality) [![Total Downloads](https://poser.pugx.org/marartner/psalm-strict-equality/downloads)](//packagist.org/packages/marartner/psalm-strict-equality) [![Latest Unstable Version](https://poser.pugx.org/marartner/psalm-strict-equality/v/unstable)](//packagist.org/packages/marartner/psalm-strict-equality) [![License](https://poser.pugx.org/marartner/psalm-strict-equality/license)](//packagist.org/packages/marartner/psalm-strict-equality)
+
 Psalm plugin to enforce strict equality.
 
 ## Install
