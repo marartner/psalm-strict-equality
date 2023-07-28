@@ -3,21 +3,21 @@
 namespace Marartner\PsalmStrictEquality\Hooks;
 
 use Marartner\PsalmStrictEquality\Issue\NoStrictEquality;
-use PhpParser\Node\Expr;
 use PhpParser\Node\Expr\BinaryOp\Equal;
 use PhpParser\Node\Expr\BinaryOp\NotEqual;
-use Psalm\Codebase;
 use Psalm\CodeLocation;
-use Psalm\Context;
 use Psalm\IssueBuffer;
 use Psalm\Node\VirtualNode;
-use Psalm\Plugin\Hook\AfterExpressionAnalysisInterface;
-use Psalm\StatementsSource;
+use Psalm\Plugin\EventHandler\AfterExpressionAnalysisInterface;
+use Psalm\Plugin\EventHandler\Event\AfterExpressionAnalysisEvent;
 
 final class StrictEqualityHook implements AfterExpressionAnalysisInterface
 {
-    public static function afterExpressionAnalysis(Expr $expr, Context $context, StatementsSource $statements_source, Codebase $codebase, array &$file_replacements = []): ?bool
+    public static function afterExpressionAnalysis(AfterExpressionAnalysisEvent $event): ?bool
     {
+        $expr = $event->getExpr();
+        $statements_source = $event->getStatementsSource();
+
         if ($expr instanceof VirtualNode) {
             return true;
         }
