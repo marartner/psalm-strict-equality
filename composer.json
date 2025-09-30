@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "vimeo/psalm": "^5.0",
+        "vimeo/psalm": "^6.0",
         "ext-simplexml": "*"
     },
     "extra": {
