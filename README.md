@@ -1,5 +1,8 @@
 # Enforce Strict Equality
-[![Latest Stable Version](https://poser.pugx.org/marartner/psalm-strict-equality/v)](//packagist.org/packages/marartner/psalm-strict-equality) [![Total Downloads](https://poser.pugx.org/marartner/psalm-strict-equality/downloads)](//packagist.org/packages/marartner/psalm-strict-equality) [![Latest Unstable Version](https://poser.pugx.org/marartner/psalm-strict-equality/v/unstable)](//packagist.org/packages/marartner/psalm-strict-equality) [![License](https://poser.pugx.org/marartner/psalm-strict-equality/license)](//packagist.org/packages/marartner/psalm-strict-equality)
+[![Packagist Version](https://img.shields.io/packagist/v/marartner/psalm-strict-equality?style=for-the-badge&label=stable)](//packagist.org/packages/marartner/psalm-strict-equality)
+[![Total Downloads](https://img.shields.io/packagist/dt/marartner/psalm-strict-equality?style=for-the-badge)](//packagist.org/packages/marartner/psalm-strict-equality)
+[![Downloads per month](https://img.shields.io/packagist/dm/marartner/psalm-strict-equality?style=for-the-badge)](//packagist.org/packages/marartner/psalm-strict-equality)
+[![License](https://img.shields.io/packagist/l/marartner/psalm-strict-equality?style=for-the-badge)](//packagist.org/packages/marartner/psalm-strict-equality)
 
 Psalm plugin to enforce strict equality.
 
